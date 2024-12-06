@@ -1,0 +1,2 @@
+# InterposeClassLazarus
+Interpose Class Lazarus
