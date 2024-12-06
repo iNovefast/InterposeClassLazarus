@@ -1,0 +1,57 @@
+object Form1: TForm1
+  Left = 655
+  Height = 302
+  Top = 305
+  Width = 352
+  Caption = 'Interpose Class'
+  ClientHeight = 302
+  ClientWidth = 352
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object Edit1: TEdit
+    Left = 32
+    Height = 28
+    Top = 40
+    Width = 280
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 35
+    Height = 20
+    Top = 13
+    Width = 44
+    Caption = 'Label1'
+    FocusControl = Edit1
+  end
+  object Edit2: TEdit
+    Left = 32
+    Height = 28
+    Top = 120
+    Width = 280
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 35
+    Height = 20
+    Top = 96
+    Width = 44
+    Caption = 'Label2'
+    FocusControl = Edit2
+  end
+  object Edit3: TEdit
+    Left = 35
+    Height = 28
+    Top = 208
+    Width = 276
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 38
+    Height = 20
+    Top = 184
+    Width = 44
+    Caption = 'Label3'
+    FocusControl = Edit3
+  end
+end
